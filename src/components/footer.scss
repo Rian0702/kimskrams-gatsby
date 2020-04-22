@@ -1,0 +1,17 @@
+@import "./variables.scss";
+.footer {
+  min-height: 300px;
+  margin-top: 5px;
+
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3e%3cpath fill='%23faf5ee' fill-opacity='1' d='M0,256L80,256C160,256,320,256,480,245.3C640,235,800,213,960,197.3C1120,181,1280,171,1360,165.3L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z'%3e%3c/path%3e%3c/svg%3e");
+}
+
+@media screen and (min-width: $large) {
+  .footer {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}

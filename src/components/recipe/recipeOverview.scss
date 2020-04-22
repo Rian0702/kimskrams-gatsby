@@ -1,0 +1,18 @@
+@import "../variables.scss";
+.recipe {
+  &-overview {
+    display: grid;
+    row-gap: 50px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: $large) {
+  .recipe {
+    &-overview {
+      display: grid;
+      grid-template-columns: auto;
+      grid-column-gap: 50px;
+    }
+  }
+}
