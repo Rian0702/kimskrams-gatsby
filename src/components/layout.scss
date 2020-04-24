@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons"); //optional
-@import "~react-md/src/scss/react-md"; // Required
-$md-primary-color: $md-cyan-300; //optional colors
-$md-secondary-color: $md-purple-a-400; //optional colors
-@include react-md-everything; // Required
 @import "./variables.scss";
 
 body {

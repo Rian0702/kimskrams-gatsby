@@ -10,6 +10,7 @@ import AboutWidget from "../components/about-widget"
 const IndexPage = () => {
   return (
     <Layout>
+      <SEO title="Rezept Übersicht" />
       <main className="grid-2">
         <RecipeOverview
           style={{
