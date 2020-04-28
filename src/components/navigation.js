@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, Link, StaticQuery } from "gatsby"
 import BurgerMenu from "./burger-menu"
+import Logo from "./logo/logo"
 
 import "./navigation.scss"
 
@@ -16,7 +17,7 @@ function navigation() {
           position: "relative",
         }}
       >
-        <span>Kimskrams</span>
+        <Logo></Logo>
       </Link>
       <StaticQuery
         className="desktop-navigation"

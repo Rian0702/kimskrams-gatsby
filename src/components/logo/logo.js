@@ -6,7 +6,7 @@ import "./image.scss"
 const Logo = () => {
   const data = useStaticQuery(graphql`
     query {
-      logo: file(relativePath: { eq: "logo.png" }) {
+      logo: file(relativePath: { eq: "logo_nobg.png" }) {
         childImageSharp {
           fluid(maxWidth: 200) {
             ...GatsbyImageSharpFluid
