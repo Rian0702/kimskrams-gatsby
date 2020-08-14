@@ -24,7 +24,7 @@ function recipePreview({ recipe }) {
       <span className="recipe-preview-box-date">{recipe.createdAt}</span>
       <div className="recipe-image">
         <Img
-          fluid={recipe.image.fluid}
+          fluid={recipe.image?.fluid}
           alt="recipeImage"
           className="recipe-image"
         ></Img>

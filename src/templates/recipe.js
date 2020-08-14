@@ -30,7 +30,7 @@ export default function RecipePage({ data }) {
             <div className="recipe-detail-box-content-info-ingredients">
               <h2>Du brauchst</h2>
               <ul>
-                {recipe.ingredients.map((ingredient, i) => {
+                {recipe.ingredients?.map((ingredient, i) => {
                   return <li key={i}>{ingredient}</li>
                 })}
               </ul>
